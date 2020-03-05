@@ -12,10 +12,6 @@
 		B73D25D9240BD0CC001C467A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73D25D8240BD0CC001C467A /* Assets.xcassets */; };
 		B73D25DC240BD0CC001C467A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73D25DA240BD0CC001C467A /* LaunchScreen.storyboard */; };
 		B73D25DF240BD0CC001C467A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B73D25DE240BD0CC001C467A /* main.m */; };
-		B73D261824114A13001C467A /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73D261724114A13001C467A /* DemoViewController.m */; };
-		B73D261F24114A96001C467A /* Demo2 in Resources */ = {isa = PBXBuildFile; fileRef = B73D261E24114A96001C467A /* Demo2 */; };
-		B73D262224114AAC001C467A /* Dmeo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73D262124114AAC001C467A /* Dmeo3ViewController.m */; };
-		B73D262724114AD5001C467A /* Demo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73D262624114AD5001C467A /* Demo4ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +23,6 @@
 		B73D25DB240BD0CC001C467A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B73D25DD240BD0CC001C467A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B73D25DE240BD0CC001C467A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B73D261624114A13001C467A /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
-		B73D261724114A13001C467A /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
-		B73D261E24114A96001C467A /* Demo2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Demo2; sourceTree = "<group>"; };
-		B73D262024114AAC001C467A /* Dmeo3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dmeo3ViewController.h; sourceTree = "<group>"; };
-		B73D262124114AAC001C467A /* Dmeo3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dmeo3ViewController.m; sourceTree = "<group>"; };
-		B73D262524114AD5001C467A /* Demo4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo4ViewController.h; sourceTree = "<group>"; };
-		B73D262624114AD5001C467A /* Demo4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo4ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +82,6 @@
 		B73D25FC240BF885001C467A /* Projects */ = {
 			isa = PBXGroup;
 			children = (
-				B73D261E24114A96001C467A /* Demo2 */,
-				B73D261524114A09001C467A /* Demo1 */,
 				B73D25CC240BD0C7001C467A /* AppDelegate.h */,
 				B73D25CD240BD0C7001C467A /* AppDelegate.m */,
 				B73D25D5240BD0C7001C467A /* Main.storyboard */,
@@ -102,10 +89,6 @@
 				B73D25DA240BD0CC001C467A /* LaunchScreen.storyboard */,
 				B73D25DD240BD0CC001C467A /* Info.plist */,
 				B73D25DE240BD0CC001C467A /* main.m */,
-				B73D262024114AAC001C467A /* Dmeo3ViewController.h */,
-				B73D262124114AAC001C467A /* Dmeo3ViewController.m */,
-				B73D262524114AD5001C467A /* Demo4ViewController.h */,
-				B73D262624114AD5001C467A /* Demo4ViewController.m */,
 			);
 			path = Projects;
 			sourceTree = "<group>";
@@ -195,15 +178,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		B73D261524114A09001C467A /* Demo1 */ = {
-			isa = PBXGroup;
-			children = (
-				B73D261624114A13001C467A /* DemoViewController.h */,
-				B73D261724114A13001C467A /* DemoViewController.m */,
-			);
-			path = Demo1;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -261,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B73D261F24114A96001C467A /* Demo2 in Resources */,
 				B73D25DC240BD0CC001C467A /* LaunchScreen.storyboard in Resources */,
 				B73D25D9240BD0CC001C467A /* Assets.xcassets in Resources */,
 				B73D25D7240BD0C7001C467A /* Main.storyboard in Resources */,
@@ -275,11 +248,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B73D261824114A13001C467A /* DemoViewController.m in Sources */,
 				B73D25CE240BD0C7001C467A /* AppDelegate.m in Sources */,
-				B73D262724114AD5001C467A /* Demo4ViewController.m in Sources */,
 				B73D25DF240BD0CC001C467A /* main.m in Sources */,
-				B73D262224114AAC001C467A /* Dmeo3ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
